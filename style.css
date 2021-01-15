@@ -123,6 +123,35 @@ a {
   margin-left: 1em;
 }
 
+.dice{
+  margin: 2em auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-bottom: 2px solid rgba(102, 51, 153, 0.455);
+  padding-bottom: 2em;
+}
+.dice p{
+  font-size: 4em;
+  font-weight: bold;
+  border-radius: 12px;
+  padding: 0.5em 1em;
+  border: 1px solid rebeccapurple;
+  margin: 0.5em auto;
+}
+.dice button{
+  padding: 1em;
+  border-radius: 1em;
+  border: none;
+  background-color: gold;
+  min-width: 120px;
+  cursor: pointer;
+}
+.dice button:hover{
+  background-color: orange;
+}
+
 footer {
   text-align: center;
   padding: 1em;
