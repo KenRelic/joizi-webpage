@@ -102,77 +102,20 @@
             </div>
 
             <div class="keys">
-              <input type="button" id="button" value="." onclick="myform.mytext.value +='.'" />
+              <input type="button" id="button" value="==" onclick="myform.mytext.value +='=='" />
               <input type="button" id="button" value="0" onclick="myform.mytext.value +='0'" />
-              <input type="button" id="button" value="=" onclick="myform.mytext.value =eval(myform.mytext.value)" />
+              <input type="button" id="button" value="." onclick="myform.mytext.value +='.'" />
               <input type="button" id="button" value="+" onclick="myform.mytext.value +='+'" />
             </div>
-           
-            <input type="button" id="button" value="==" onclick="myform.mytext.value +='=='" />
+
+            <div class="keys">
+              <input type="button" id="button" value="=" onclick="myform.mytext.value =eval(myform.mytext.value)" />
+            </div>
 
           </fieldset>
         </form>
       </div>
     </div>
-    <style>
-      .keys {
-        display: flex;
-        justify-content: space-between;
-        margin: 1em auto;
-      }
-
-      .keys input {
-        flex: 1;
-        padding: 5px;
-        margin: 0.22em;
-      }
-
-      .calculator {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-      }
-
-      #calculator-wrapper {
-        margin-top: 1em;
-        max-width: 360px;
-      }
-
-      #screen {
-        width: 100%;
-        padding: 0.5em;
-        background-color: rgb(242, 229, 255);
-        border: none;
-        height: 60px;
-        display: block;
-        margin: 1em auto;
-      }
-
-      form {
-        background-color: rgb(45, 0, 67);
-        height: 360px;
-        padding-top: 1em;
-        width: 80%;
-      }
-
-      fieldset {
-        height: 310px;
-        border: none;
-        padding: 1em;
-      }
-
-      legend {
-        color: hotpink;
-      }
-
-      @media (min-width: 520px) {
-        form {
-          width: 480px;
-
-        }
-      }
-    </style>
 
     <footer>&copy; 2021 - Joy Harry Perfumery</footer>
   </main>
